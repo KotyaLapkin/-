@@ -158,7 +158,7 @@ src/factorial.c
 ``` 
 
 Makefile
-
+```
  # Настройки компилятора
  CC = gcc	# Используемый компилятор (GNU C Compiler)
  CFLAGS = -Wall -Wextra -Iinclude	# Флаги компиляции:
@@ -195,7 +195,7 @@ Makefile
  rebuild: clean all	# Полная пересборка: clean → all
  
  .PHONY: all clean rebuild	# Указывает, что это не файлы
-
+```
 Программу усовершенствовать: добавить параллельный процесс средствами Linux/Windows. Синхронизация доступа к общему ресурсу (файл, канал, pipe, очередь, mmap, smmem).
 
  
