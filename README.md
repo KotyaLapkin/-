@@ -155,6 +155,7 @@ src/factorial.c
  		return n * factorial(n - 1);
  }
  
+``` 
 
 Makefile
 
@@ -194,7 +195,6 @@ Makefile
  rebuild: clean all	# Полная пересборка: clean → all
  
  .PHONY: all clean rebuild	# Указывает, что это не файлы
-``` 
 
 Программу усовершенствовать: добавить параллельный процесс средствами Linux/Windows. Синхронизация доступа к общему ресурсу (файл, канал, pipe, очередь, mmap, smmem).
 
@@ -329,6 +329,7 @@ src/factorial.c
  		return n * factorial(n - 1);
  	}
  
+```
 
 Makefile
 
@@ -375,7 +376,6 @@ Makefile
  	# Фиктивные цели (не связаны с файлами)
  	.PHONY: all clean
 
-```
 
 Параллельный процесс:
 
