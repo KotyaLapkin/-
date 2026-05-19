@@ -14,7 +14,7 @@
 
      &nbsp;
 
-     **Программа [factorial.c](lab1/factorial.c), которая вычисляет факториал:**
+     **Программа [factorial.c](factorial.c), которая вычисляет факториал:**
 
      ```c
      #include <stdio.h>
@@ -46,7 +46,7 @@
 
       &nbsp;
 
-      **Ассемблерная программа [factorialO1.s](lab1/factorialO1.s) с уровнем оптимизации 1:**
+      **Ассемблерная программа [factorialO1.s](factorialO1.s) с уровнем оптимизации 1:**
      
      ```s
       # Ассемблерный код с оптимизацией первого уровня
@@ -116,7 +116,7 @@
   
       	&nbsp;
 
-		**Структура [проекта](lab1/project1):**
+		**Структура [проекта](project1):**
    		```
 		project1/
 		├── include/
@@ -145,7 +145,7 @@
 		&nbsp;
 		&nbsp;
 	
-	   [include/factorial.h](lab1/project1/include/factorial.h)
+	   [include/factorial.h](project1/include/factorial.h)
 	   
 	   ```h
 		#ifndef FACTORIAL_H
@@ -158,7 +158,7 @@
 	
 		&nbsp;
 	
-	   [src/main.c](lab1/project1/src/main.c)
+	   [src/main.c](project1/src/main.c)
 	   
 	   ```c
 		#include <stdio.h>
@@ -172,7 +172,7 @@
 	
 	   &nbsp;
 	
-	   [src/factorial.c](lab1/project1/src/factorial.c)
+	   [src/factorial.c](project1/src/factorial.c)
 	   
 	   ```c
 		#include "factorial.h" 
@@ -185,7 +185,7 @@
 	
 	   &nbsp;
 	
-	   [Makefile](lab1/project1/Makefile)
+	   [Makefile](project1/Makefile)
 	   
 	   ```makefile
 		# Настройки компилятора
@@ -237,7 +237,7 @@
 		&nbsp;
 
 		
-		**Структура [проекта](lab1/project2):**
+		**Структура [проекта](project2):**
 		```
 			project2/
 			├── include/
@@ -251,7 +251,7 @@
 		
 		&nbsp;
 	
-		[include/factorial.h](lab1/project2/include/factorial.h)
+		[include/factorial.h](project2/include/factorial.h)
 			   
 		```h
 			#ifndef FACTORIAL_H
@@ -264,7 +264,7 @@
 		  
 		&nbsp;
 		
-		[src/main.c](lab1/project2/src/main.c)
+		[src/main.c](project2/src/main.c)
 			   
 		```c
 			#include <stdio.h>
@@ -361,7 +361,7 @@
 			
 		&nbsp;
 			
-		[src/factorial.c](lab1/project2/src/factorial.c)
+		[src/factorial.c](project2/src/factorial.c)
 			   
 		```c
 			#include "factorial.h"
@@ -374,7 +374,7 @@
 		
 	   	&nbsp;
 		
-		[Makefile](lab1/project2/Makefile)
+		[Makefile](project2/Makefile)
 		   
 		```makefile
 			# Настройки компилятора
